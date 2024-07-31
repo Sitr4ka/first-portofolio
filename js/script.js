@@ -23,3 +23,7 @@ menuIcon.onclick = () => {
    menuIcon.classList.toggle('lni-close');
    navbar.classList.toggle('active');
 }
+
+function clearContent() {
+   document.getElementById("contact-form").reset();
+}

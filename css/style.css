@@ -5,13 +5,13 @@
     --bg-color: #080808;
     --second-bg-color: #131313;
     --text-color: white;
-    --main-color: #00ffee;
+    --main-color: #1bbeb0;
     --main-color-opacity: #00ffee00;
 }
 
 * {
     padding: 0;
-    margin: 0;
+    margin: 0;  
     box-sizing: border-box;
     text-decoration: none;
     border: none;
@@ -336,7 +336,7 @@ span {
     font-weight: 500;
 }
 
-.timeline-content h4 {
+.timeline-content h4  {
     font-size: 18px;
     color: rgb(169, 135, 24);
     margin: 0 0 10px;
@@ -423,6 +423,23 @@ span {
     resize: none;
 }
 
+.contact .btn-clear {
+    display: inline-block;
+    padding: 1rem 2.8rem;
+    background: var(--main-color);
+    box-shadow: 0 0 25 var(--main-color);
+    border-radius: 4rem;
+    font-size: 1.6rem;
+    color: black;
+    border: 2px solid transparent;
+    letter-spacing: 0.1rem;
+    font-weight: 600;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+
+    margin-right: 5px; 
+    background-color:  rgb(169, 135, 24)
+}
 .contact form .btn {
     margin-top: 2rem;
 }
